@@ -16,12 +16,12 @@ That's all there is for now.
 
 ### Instructions
 
-1. Install Unreal Engine 5.1
+1. Install Unreal Engine 5.1.1
 1. Open this project
 1. Make changes
 1. Run deploy.bat
-  1. Before running, verify that the variables at the top are set correctly
-  1. The game should not be running while you are running this
+    1. Before running, verify that the variables at the top are set correctly
+    1. The game should not be running while you are running this
 1. Run the game
 
 ### Implementation notes
