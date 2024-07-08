@@ -1,4 +1,4 @@
-# Pseudoregalia Map Starter Template
+# Pseudoregalia Map Starter Project
 
 
 <img src="https://github.com/pseudoregalia-modding/map-starter/assets/144861042/c57d9851-5370-4a97-b870-34b9e87cb473" width="45%">
@@ -22,7 +22,7 @@ That's all there is for now.
 1. Run deploy.bat
     1. Before running, verify that the variables at the top are set correctly
     1. The game should not be running while you are running this
-1. Run the game
+    1. At the end, this should run the game automatically
 
 ### Implementation notes
 
@@ -34,11 +34,4 @@ This is just the default Blank UE5.1 project with a few project settings changed
 ```
 [Core.System]
 CanUseUnversionedPropertySerialization=False
-```
-
-In addition, two assets were dummied:
-
-```
-Game/Lighting/Blueprints/BP_Ambience.uasset
-Game/Maps/_GENERATED/rittz/blockoutBigbox.uasset
 ```
