@@ -1,5 +1,7 @@
 # Pseudoregalia Map Starter Project
 
+<img src="https://github.com/user-attachments/assets/662be33d-3c17-4d6b-a70c-e93a4b74d64f" width="45%">
+
 Use this Unreal project to create custom maps for Pseudoregalia.
 
 ### Instructions
