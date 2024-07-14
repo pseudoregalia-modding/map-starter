@@ -1,22 +1,10 @@
 # Pseudoregalia Map Starter Project
 
-
-<img src="https://github.com/pseudoregalia-modding/map-starter/assets/144861042/c57d9851-5370-4a97-b870-34b9e87cb473" width="45%">
-<img src="https://github.com/pseudoregalia-modding/map-starter/assets/144861042/59735106-cc0f-406b-b7d1-3e2d374ad75a" width= 45%>
-
-
-Use this Unreal project to create extremely basic levels which you can load into your copy of Pseudoregalia.
-
-Features:
-
-- Ambient global lighting
-- Translate, rotate, and scale boxes
-
-That's all there is for now.
+Use this Unreal project to create custom maps for Pseudoregalia.
 
 ### Instructions
 
-1. Install Unreal Engine 5.1.1
+1. Install Unreal Engine 5.1.1 using the Epic Games Launcher
 1. Open this project
 1. Make changes
 1. Run deploy.bat
@@ -24,14 +12,10 @@ That's all there is for now.
     1. The game should not be running while you are running this
     1. At the end, this should run the game automatically
 
-### Implementation notes
+### FAQ
 
-This is just the default Blank UE5.1 project with a few project settings changed so that the mod pak can be loaded. The changes are:
-
-- Set "IOStore" to false
-- Set "Generate chunks" to true
-- Add to top of file `Config/DefaultEngine.ini`
-```
-[Core.System]
-CanUseUnversionedPropertySerialization=False
-```
+- Q: Why can't I see my level in the editor?
+    - A: This starter project does not contain meshes, textures, or any other
+      assets from the game. This is by design; we do not condone distributing
+      assets from the game. This means the in-editor preview is going to be
+      largely symbolic. Prefer previewing your map in-game.
